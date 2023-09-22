@@ -1,0 +1,42 @@
+.wheelspin {
+  background: linear-gradient(rgb(173, 107, 118), rgb(139, 90, 109), rgb(41, 119, 140));
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  color: white;
+}
+
+.para {
+  color: white;
+  margin: 0px;
+}
+
+.button {
+  background-color: #eeeeee;
+  border: none;
+  color: #333333;
+  font-weight: 600;
+  margin-top: 1.5em;
+  font-family: inherit;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 0.8em;
+  font-size: inherit;
+  border-radius: 0.3em;
+  padding: 0.7em;
+}
+
+.button:hover {
+  background: blueviolet;
+  color: white;
+  box-shadow: 0px 0px 100px blueviolet;
+}
+
+.fall>canvas {
+  position: fixed !important;
+}
